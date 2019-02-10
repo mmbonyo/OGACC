@@ -1,0 +1,241 @@
+html,body
+{
+    height: 100%;
+    width:100%;
+    background-color:#FFF;
+    font-family: "Helvetica", Times, serif;
+}
+
+.navbar 
+{    /*whitesmoke*/
+    background-color: #F5F5F5;
+    padding: 0% 0;
+    font-size: 1.0em;
+}
+.navbar-brand
+{
+    
+    min-height:80px;
+    padding: 0 15px 5px;
+}
+.navbar-brand .navbar-right p
+{
+  color: #FFF;  
+    }
+
+
+
+.navbar-right 
+{
+   padding-top:42px;
+}
+
+.navbar-default .navbar-nav  li a
+{
+    color:#4B515D;
+    font-family: "Helvetica", Times, serif;
+}
+
+.navbar-light .navbar-nav  li a
+{
+    color:#4B515D;
+    font-family: "Helvetica", Times, serif;
+}
+
+
+.navbar-default .navbar-header a
+{
+    color:#191970;
+}
+
+.panel-deafult .panel-heading
+{
+    background-color: #F5F5F5;
+}
+
+.navbar-default .navbar-nav li a:hover
+{
+
+    color:#FFF;
+    background:#4B515D;
+}
+
+.navbar-light .navbar-nav li a:hover
+{
+
+    color:#FFF;
+    background:#4B515D;
+     
+}
+
+
+
+.text-justify
+{
+    font-size: 1.4em;
+    padding:0.5em;
+    font-family: "Helvetica", Times, serif;
+    color: #000000;
+}
+
+
+.text-left
+{
+    font-size: 1.5em;
+}
+
+
+  /*.carousel-inner img
+   {
+      width:100%; 
+      margin: auto;
+      min-height:100px;
+      }*/
+
+      .carousel-inner .item {
+          height:700px;
+      }
+
+      .item img {
+        position: absolute;  
+        width: 100%;
+        margin: auto;
+        min-height:700px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) 
+    {
+        .carousel-caption 
+        {
+          display: none; 
+      }
+
+  }
+
+  #text
+  {
+    display:none;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+
+
+.btn-container button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  padding:8px;
+  font-size:18px;
+  color:#000000;
+  font-family:Helvetica;
+  box-sizing:border-box;
+}
+
+/* Add a gray background color and some padding to the footer */
+a{
+    text-decoration:none;
+    outline: none;
+}
+.footer-main-div
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color:#FFF;
+  background-color:#4B515D;
+  padding: 20px 0px;
+}
+.footer-social-icons
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li
+{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin: 0px 10px;
+   border-radius: 100%;
+   background-color:#F5F5F5;
+}
+.footer-social-icons ul li:hover{
+    background:#FFC300;
+}
+.footer-social-icons ul li :hover a
+{
+    background:#FFF;
+}
+.footer-social-icons ul li a
+{
+    color:#4B515D;
+    font-size: 25px;
+}
+.footer-social-icons ul li a i
+{
+    line-height: 50px;
+}
+.footer-menu-one
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ul
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.footer-menu-one ul li
+{
+   display: inline-block;
+   margin: 0px 10px;
+}
+.footer-menu-one ul li a
+{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFF;
+}
+.footer-bottom
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #000000;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 40%;
+  background-color: orange;
+}
+
+
+
+
+
+
